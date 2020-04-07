@@ -3,14 +3,14 @@
 Gem for parsing replays of Supreme Commander 2. It returns all info about players, map and game options from replay
 
 ___
-#####Parsing Game options
+##### Parsing game option fields
 ```
 FogOfWar
 NoRushOption
 TeamSpawn
 Victory
 ```
-#####Parsing players info
+##### Parsing players info
 ```
 Nickname
 Color
