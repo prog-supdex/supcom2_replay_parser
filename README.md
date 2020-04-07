@@ -4,16 +4,19 @@ Gem for parsing replays of Supreme Commander 2. It returns all info about player
 
 ___
 #####Parsing Game options
-    FogOfWar
-    NoRushOption
-    TeamSpawn
-    Victory
-    
+```
+FogOfWar
+NoRushOption
+TeamSpawn
+Victory
+```
 #####Parsing players info
-    Nickname
-    Player Color
-    Faction
-    Team
+```
+Nickname
+Color
+Faction
+Team
+```
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -32,7 +35,7 @@ Or install it yourself as:
 
 ## Usage
 
-```
+```ruby
 require 'pp'
 replay_info = SupCom2ReplayParser.call(file_path)
 pp replay_info
