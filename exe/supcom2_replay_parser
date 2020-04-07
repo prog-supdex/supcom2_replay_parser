@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'supcom2_replay_parser'
+
+puts SupCom2ReplayParser.call(ARGV[0].to_s)
