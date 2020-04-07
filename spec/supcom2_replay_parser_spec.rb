@@ -9,7 +9,6 @@ RSpec.describe SupCom2ReplayParser do
       {
         'FogOfWar' => 'none',
         'NoRushOption' => '10',
-        'AllowObservers' => '',
         'TeamSpawn' => 'fixed',
         'Victory' => 'demoralization',
         'map' => '[2] Spring Duel'
@@ -31,7 +30,6 @@ RSpec.describe SupCom2ReplayParser do
       {
         'FogOfWar' => 'none',
         'NoRushOption' => '10',
-        'AllowObservers' => '',
         'TeamSpawn' => 'fixed',
         'Victory' => 'demoralization',
         'map' => '[2] Spring Duel'

@@ -3,7 +3,6 @@ module SupCom2ReplayParser
     FIELDS = %w[
       FogOfWar
       NoRushOption
-      AllowObservers
       TeamSpawn
       Victory
     ].freeze
